@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.clusterNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonCluster {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardRow {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clusterCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.complexGallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-flow: dense;
+}
+
+.wide {
+    grid-column: span 5;
+}
+
+.tall {
+    grid-row: span 2;
+}
+
+.huge {
+    grid-column: span 3;
+    grid-row: span 3;
+}

@@ -1,0 +1,40 @@
+html, body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+div {
+    border: black 2px solid;
+}
+
+/* class us . */
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.rectangle{
+    width: 200px;
+    height: 100px;
+}
+/* id use # */
+#red {
+    background-color: rgba(255,87,51,0.9);
+}
+
+#blue {
+    background-color: rgba(96,138,255,0.81);
+}
+
+#orange {
+    background-color: rgba(255,152,15,0.81);
+}
+
+#yellow {
+    background-color: rgba(255,223,104,0.81);
+}
+
+p#hello{
+    color: red;
+}
