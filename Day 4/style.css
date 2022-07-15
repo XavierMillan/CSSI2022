@@ -1,0 +1,38 @@
+img {
+  max-width: 400px;
+}
+
+
+.Progress_Status {
+  width: 50%;
+  background-color: #ddd;
+    border-radius: 20px;
+}
+
+#myprogressBar_GoatFeed {
+  width: 10%;
+  height: 35px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+  border-radius: 20px;
+}
+#myprogressBar_GoatComb {
+  width: 10%;
+  height: 35px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+  border-radius: 20px;
+}
+#myprogressBar_GoatPlay {
+  width: 10%;
+  height: 35px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+  border-radius: 20px;
+}
